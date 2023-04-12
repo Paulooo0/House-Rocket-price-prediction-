@@ -1,4 +1,4 @@
-# Machine-Learning_Rokket-House
+# Machine Learning - House Rocket
 
 * Description
 
