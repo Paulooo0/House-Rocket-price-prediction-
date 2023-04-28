@@ -22,7 +22,7 @@ The linear regression, ridge and lasso performed around 56% of accuracy and the 
 
 ## How to run
 
-* Install [all sources](https://github.com/Paulooo0/House-Rocket-price-prediction-) and run `app.py`. After running, open your browser and type in the search bar `localhost:5000`, the `pred_page.html` will be open, and you can use the price prediction algorithm.
+* Install [all sources]https://github.com/Paulooo0/price-prediction) and run `app.py`. After running, open your browser and type in the search bar `localhost:5000`, the `pred_page.html` will be open, and you can use the price prediction algorithm.
 
 ## Project developer
 
