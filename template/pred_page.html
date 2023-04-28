@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>pred_page.html</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='pred_page.css') }}">
+    </head>
+    <body>
+        <h1>Price prediction</h1>
+        <form method="post" action="/predict">
+            <p>Choose your parameters:</p>
+            <p><label for="bedrooms">Bedrooms: </label>
+                <input type="number" id="bedrooms" name="bedrooms" min="0" max="33"></p>
+            <p><label for="bathrooms">Bathrooms:</label>
+                <input type="number" id="bathrooms" name="bathrooms" min="0" max="33"></p>
+            <p><label for="floors">Floors:</label>
+                <input type="number" id="floors" name="floors" min="0" max="8"></p>
+            <p><label for="waterfront">Waterfront:</label>
+                <select name="waterfront" id="waterfront">
+                    <option value="0">No</option>
+                    <option value="1">Yes</option></select></p>
+            <p><label for="grade">Grade:</label>
+                <input type="number" id="grade" name="grade" min="0" max="13"></p>
+
+            <button type="submit">Submit</button>
+            <p><label id="price">Price: {{prediction}}</label></p>
+        </form>
+    </body>
+</html>

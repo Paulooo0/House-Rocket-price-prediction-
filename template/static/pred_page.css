@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: #f8f8f8;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+
+form {
+  position: center;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  background-color: #fff;
+  margin-right: 65%;
+}
+
+label {
+  display: initial;
+  margin-bottom: 5px;
+}
+
+input[type="number"],
+select {
+  position:static;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  
+}
+
+input[type="submit"] {
+  width: auto;
+  cursor: pointer;
+}
+
+label[id="price"] {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2509c4;
+}
