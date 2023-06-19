@@ -4,9 +4,8 @@ from array_converter import array
 from flask import Flask, request, render_template
 import os
 
-
 app = Flask(__name__, template_folder='template', static_folder='template/static')
-with open('C:/Users/paulo/Code/House_Rocket_price_prediction/price_predict.pkl', 'rb') as file:
+with open('price_predict.pkl', 'rb') as file:
     model = pickle.load(file)
 
 
